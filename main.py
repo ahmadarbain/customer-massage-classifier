@@ -12,7 +12,7 @@ def main():
     args = parser.parse_args()
 
     if args.predict:
-        logger.info("📊 Mode prediksi dari CSV")
+        logger.info("Mode prediksi dari CSV")
         Predictor(csv_path=args.csv, save_path=args.out)
     else:
         Train_Pipeline()

@@ -73,9 +73,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# Logs
-*.log
-
 # SQLite databases
 *.sqlite3
 
@@ -83,9 +80,6 @@ cython_debug/
 .DS_Store
 Thumbs.db
 
-# Model artifacts
-*.pkl
-*.joblib
 
 # Environment variables
 .env

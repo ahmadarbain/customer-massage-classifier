@@ -94,7 +94,7 @@ class _TrainModel:
             report = classification_report(y_test, y_pred, target_names=self.label_encoder.classes_)
             macro_f1 = f1_score(y_test, y_pred, average='macro')
 
-            logger.info(f"📈 Macro F1-score: {macro_f1:.4f}")
+            logger.info(f"Macro F1-score: {macro_f1:.4f}")
             print(report)
 
             if macro_f1 > best_score:
